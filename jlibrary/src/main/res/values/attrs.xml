@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyView">
+        <!--hint-->
+        <attr name="hintColor" format="color" />
+        <attr name="hintSize" format="dimension" />
+        <attr name="hint" format="string" />
+        <!--value-->
+        <attr name="valueColor" format="color" />
+        <attr name="valueSize" format="dimension" />
+        <attr name="value" format="string" />
+        <!--unit-->
+        <attr name="unitColor" format="color" />
+        <attr name="unitSize" format="dimension" />
+        <attr name="unit" format="string" />
+        <!--min、max-->
+        <attr name="minMaxColor" format="color" />
+        <attr name="minMaxSize" format="dimension" />
+        <attr name="min" format="string" />
+        <attr name="max" format="string" />
+        <!--bgArc-->
+        <attr name="bgArcColor" format="color|reference" />
+        <attr name="bgArcWidth" format="float" />
+        <attr name="bgArcStartAngle" format="float" />
+        <attr name="bgArcSweepAngle" format="float" />
+        <!--arc-->
+        <attr name="arcColor" format="color|reference" />
+        <attr name="arcWidth" format="float" />
+        <attr name="arcStartAngle" format="float" />
+        <attr name="arcSweepAngle" format="float" />
+    </declare-styleable>
+</resources>
